@@ -39,7 +39,6 @@ print(f"{obchodni_jmeno}\n{adresa_sidla}")
 obchodni_jmeno_subjektu = input("Zadejte název subjektu: ")  
 headers = {  "accept": "application/json","Content-Type": "application/json"}
 
-# ZDE
 
 data = f'{{"obchodniJmeno": "{obchodni_jmeno_subjektu}"}}'
 adresa = "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/vyhledat"  
